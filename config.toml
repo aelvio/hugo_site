@@ -1,4 +1,34 @@
 baseURL = "http://aelvio.github.io/"
 languageCode = "en-us"
 title = "Allan Sadun"
-theme = "pulp"
+theme = "hugo-coder"
+publishDir = "aelvio.github.io"
+
+[params]
+    author = "Allan Sadun"
+    info = "LeafLabs, LLC"
+    description = "My sparse website"
+    keywords = "meh"
+    avatarurl = "img/andrea-headshot.png"
+    # avatarDescription = "My avatar description"
+    # favicon = "favicon.ico"
+    publicationYear = "2020"
+
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-lg"
+    weight = 1
+    url = "https://www.linkedin.com/in/allan-sadun-661347193/"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-lg"
+    weight = 2
+    url = "https://github.com/aelvio"
+
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-lg"
+    weight = 3
+    url = "mailto:aesadun@alum.mit.edu"

@@ -4,3 +4,6 @@
 [submodule "aelvio.github.io"]
 	path = aelvio.github.io
 	url = git@github.com:aelvio/aelvio.github.io.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
